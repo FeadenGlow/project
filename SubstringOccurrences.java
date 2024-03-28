@@ -5,7 +5,6 @@ public class SubstringOccurrences {
         Scanner scanner = new Scanner(System.in);
         List<String> lines = new ArrayList<>();
 
-
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             if (line.isEmpty()) break; 
